@@ -28,11 +28,11 @@ Automatic queue is experimental. It uses WhatsApp Web controls, including sendin
 - Phone checks are structural; they do not establish ownership, validity or WhatsApp registration.
 - Duplicate normalized phones are excluded, with the first row retained. Names are never used for duplicate detection.
 - Reports distinguish submitted clicks, user-confirmed sends, excluded rows, skipped rows and rows needing review. Nothing is labeled delivered.
-- Contacts and drafts are saved to this browser profile's local extension storage. They are not uploaded to this GitHub repository.
+- Contacts and drafts are saved to this browser profile's local extension storage. They are not uploaded to this GitHub repository. Attachments remain in memory until the tab closes. Clear contacts and draft removes contact data and progress; delete saved templates separately. Uninstalling removes extension storage.
 - WhatsApp receives the selected number and text when a chat opens and receives attachments when submitted. No other service receives imported files.
 - This tool does not bypass WhatsApp limits or guarantee that an account will avoid restrictions. Use only expected, consented messages. Meta Verified is not an API entitlement.
-- No automatic self-repair or automatic updates are installed. After a WhatsApp change, use Review mode or stop using the tool until the adapter is updated and tested.
-- The NOS icon is temporary. Replace `icon.png` with the intended 128 × 128 PNG logo and reload the extension.
+- No automatic self-repair or automatic updates are installed. After a WhatsApp change, use Review mode or stop using the tool until the adapter is updated and tested. Replace files and click Reload on the Chrome extensions page to install updates.
+- The NOS icon is temporary. Replace `icon.png` with the intended 128 x 128 PNG logo and reload the extension.
 
 ## Verification
 
